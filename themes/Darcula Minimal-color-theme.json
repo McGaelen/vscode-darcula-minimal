@@ -1,0 +1,107 @@
+{
+	"name": "Darcula Minimal",
+	"colors": {
+		"editor.background": "#1a1a1a",
+		"editor.foreground": "#adadad",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#bbbbbb"
+	},
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		// "": "#ff0000",
+		"*.global": "#ff0000",
+		"*.public": "#ff0000",
+		"variable.local": "#ffffff",
+		"variable": "#ff0000"
+		// "*.local": "#ff0000",
+	},
+	"tokenColors": [
+		// {
+		// 	"name": "Keyword, Storage, Operator, Misc",
+		// 	"scope": [
+		// 		"keyword",
+		// 		"storage.type",
+		// 		"operatior",
+		// 		"punctuation.separator",
+		// 		"meta.brace.square",
+		// 		"punctuation.section.embedded",
+		// 		"punctuation.definition.keyword",
+		// 		"support.type.primitive",
+		// 		"entity.name.label"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#CC7832"
+		// 	}
+		// },
+		// {
+		// 	"name": "Parameters, Imported Variables, Global Variables",
+		// 	"scope": [
+		// 		"variable.parameter",
+		// 		"variable.other",
+		// 		"punctuation.definition.variable"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#9A71A8"
+		// 	}
+		// },
+		{
+			"name": "Classes, Tags",
+			"scope": [
+				"entity.name.tag",
+				"meta.tag.sgml",
+				
+				"support.class.component"
+			],
+			"settings": {
+				"foreground": "#5295A4"
+			}
+		},
+		{
+			"name": "Literal Values",
+			"scope": [
+				"constant",
+				"string"
+			],
+			"settings": {
+				"foreground": "#6A8759"
+			}
+		},
+		{
+			"name": "Documentation",
+			"scope": [
+				"comment.block.documentation"
+			],
+			"settings": {
+				"foreground": "#629755"
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+			],
+			"settings": {
+				"foreground": "#585858"
+			}
+		},
+		{
+			"name": "XML Tag chevrons and equals",
+			"scope": [
+				"punctuation.definition.tag",
+				"punctuation.separator.key-value"
+			],
+			"settings": {
+				"foreground": "#666666"
+			}
+		},
+		// {
+		// 	"name": "HTML =",
+		// 	"scope": [
+		// 		"punctuation.separator.key-value"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#adadad"
+		// 	}
+		// }
+	]
+}
