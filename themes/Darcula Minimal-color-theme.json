@@ -4,35 +4,50 @@
 		"editor.background": "#1a1a1a",
 		"editor.foreground": "#adadad",
 		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBarTitle.foreground": "#bbbbbb",
+		
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		// "": "#ff0000",
-		"*.global": "#ff0000",
-		"*.public": "#ff0000",
-		"variable.local": "#ffffff",
-		"variable": "#ff0000"
-		// "*.local": "#ff0000",
+		"class": "#5295A4",
+		"type": {
+			"foreground": "#5295A4",
+			"italic": true
+		},
+		"interface": {
+			"foreground": "#5295A4",
+			"italic": true
+		},
+		"variable.defaultLibrary": {
+			"foreground": "#9A71A8",
+			"bold": true,
+			"italic": true
+		},
+		"parameter": "#9A71A8",
+		"variable.local": "#adadad",
+		"property": "#adadad"
 	},
 	"tokenColors": [
-		// {
-		// 	"name": "Keyword, Storage, Operator, Misc",
-		// 	"scope": [
-		// 		"keyword",
-		// 		"storage.type",
-		// 		"operatior",
-		// 		"punctuation.separator",
-		// 		"meta.brace.square",
-		// 		"punctuation.section.embedded",
-		// 		"punctuation.definition.keyword",
-		// 		"support.type.primitive",
-		// 		"entity.name.label"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#CC7832"
-		// 	}
-		// },
+		{
+			"name": "Keyword, Storage, Operator, Misc",
+			"scope": [
+				"keyword",
+				"storage.type",
+				"storage.modifier",
+				"operatior",
+				"punctuation.separator",
+				"meta.brace.square",
+				"punctuation.section.embedded",
+				"punctuation.definition.keyword",
+				"support.type.primitive",
+				"entity.name.label",
+				"punctuation.terminator.statement",
+				"punctuation.accessor"
+			],
+			"settings": {
+				"foreground": "#CC7832"
+			}
+		},
 		// {
 		// 	"name": "Parameters, Imported Variables, Global Variables",
 		// 	"scope": [
@@ -48,9 +63,9 @@
 			"name": "Classes, Tags",
 			"scope": [
 				"entity.name.tag",
-				"meta.tag.sgml",
+				// "meta.tag.sgml",
 				
-				"support.class.component"
+				// "support.class.component"
 			],
 			"settings": {
 				"foreground": "#5295A4"
@@ -88,7 +103,11 @@
 			"name": "XML Tag chevrons and equals",
 			"scope": [
 				"punctuation.definition.tag",
-				"punctuation.separator.key-value"
+				"punctuation.separator.key-value.html",
+				"punctuation.separator.key-value.svelte",
+				"punctuation.definition.template-expression",
+				"punctuation.definition.block.begin.svelte",
+				"punctuation.definition.block.end.svelte"
 			],
 			"settings": {
 				"foreground": "#666666"
