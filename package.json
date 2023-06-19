@@ -2,7 +2,7 @@
   "name": "darcula-minimal",
   "displayName": "Darcula Minimal",
   "description": "Minimal darcula theme",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.74.0"
   },

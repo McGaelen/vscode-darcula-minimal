@@ -725,7 +725,10 @@
         "support.type.primitive",
         "entity.name.label",
         "punctuation.terminator.statement",
-        "punctuation.accessor"
+        "punctuation.accessor",
+        "punctuation.definition.block.begin.svelte",
+        "punctuation.definition.block.end.svelte",
+        "punctuation.definition.entity.css"
       ],
       "settings": {
         "foreground": "#CC7832"
@@ -733,7 +736,11 @@
     },
     {
       "name": "Classes, Tags",
-      "scope": ["entity.name.tag"],
+      "scope": [
+        "entity.name.tag",
+        "punctuation.definition.tag",
+        "punctuation.definition.template-expression"
+      ],
       "settings": {
         "foreground": "#5295A4"
       }
@@ -757,20 +764,6 @@
       "scope": ["comment"],
       "settings": {
         "foreground": "#585858"
-      }
-    },
-    {
-      "name": "XML Tag chevrons and equals",
-      "scope": [
-        "punctuation.definition.tag",
-        "punctuation.separator.key-value.html",
-        "punctuation.separator.key-value.svelte",
-        "punctuation.definition.template-expression",
-        "punctuation.definition.block.begin.svelte",
-        "punctuation.definition.block.end.svelte"
-      ],
-      "settings": {
-        "foreground": "#666666"
       }
     }
   ]
