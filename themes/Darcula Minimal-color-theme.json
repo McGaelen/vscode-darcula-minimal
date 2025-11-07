@@ -719,6 +719,10 @@
         "storage.modifier",
         "operatior",
         "punctuation.separator",
+        "punctuation.definition.block",
+        "punctuation.definition.template-expression",
+        "punctuation.definition.typeparameters",
+        "punctuation.definition.binding-pattern.object",
         "meta.brace.square",
         "punctuation.section.embedded",
         "punctuation.definition.keyword",
@@ -728,7 +732,7 @@
         "punctuation.accessor",
         "punctuation.definition.block.begin.svelte",
         "punctuation.definition.block.end.svelte",
-        "punctuation.definition.entity.css"
+        "punctuation.definition.entity.css",
       ],
       "settings": {
         "foreground": "#CC7832"
@@ -739,7 +743,7 @@
       "scope": [
         "entity.name.tag",
         "punctuation.definition.tag",
-        "punctuation.definition.template-expression"
+        "support.class.component.svelte"
       ],
       "settings": {
         "foreground": "#5295A4"
@@ -764,6 +768,13 @@
       "scope": ["comment"],
       "settings": {
         "foreground": "#585858"
+      }
+    },
+    {
+      "name": "Plain text",
+      "scope": ["punctuation.separator.key-value.svelte"],
+      "settings": {
+        "foreground": "#adadad",
       }
     }
   ]

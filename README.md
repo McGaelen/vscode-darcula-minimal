@@ -9,3 +9,11 @@ Minimal Darcula theme for vscode.
 3. Click the triple-dot menu and click Install from VSIX...
 4. Select the .vsix and install
 5. Restart VSCode
+
+## To build:
+
+Run `npm run build`, which runs the `vsce` tool and generates a vsix file.
+
+## To develop:
+
+Run the "Extension" run configuration.
